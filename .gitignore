@@ -1,0 +1,89 @@
+# ============================================================
+# Dataset & Raw Media — DO NOT UPLOAD
+# ============================================================
+set01/
+set02/
+set05/
+images/
+data_cache/
+
+# Large video files anywhere
+*.mp4
+*.avi
+*.mkv
+
+# Raw image frames ONLY inside dataset/frame folders
+images/**/*.jpg
+images/**/*.jpeg
+images/**/*.png
+images/**/*.bmp
+set01/**/*.jpg
+set02/**/*.jpg
+set05/**/*.jpg
+
+# ============================================================
+# Vivado Project Directories (generated, huge)
+# ============================================================
+fpga/vivado_project*/
+fpga/.Xil/
+fpga/*.jou
+fpga/*.log
+fpga/vivado.jou
+fpga/vivado.log
+vivado.jou
+vivado.log
+
+# Vivado backup files
+*.backup.jou
+*.backup.log
+
+# Vivado generated outputs inside project
+*.runs/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.sim/
+*.srcs/
+*.xpr
+*.bit
+*.bin
+*.ltx
+*.mcs
+
+# ============================================================
+# Python cache
+# ============================================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ============================================================
+# Individual per-sample test vectors (too many, redundant)
+# ============================================================
+fpga_test_vectors/test_sample_*.mem
+fpga_test_vectors/*.pkl
+fpga_test_vectors/*.h
+
+# ============================================================
+# Large model output CSVs (generated, not source)
+# ============================================================
+model_outputs/ec_traj_*.csv
+model_outputs/pf_*.csv
+
+# ============================================================
+# Misc
+# ============================================================
+*.log
+*.tmp
+*.swp
+*.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+_stage_files.ps1

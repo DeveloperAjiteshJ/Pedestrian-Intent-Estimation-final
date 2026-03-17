@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tinymobilenet_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tinymobilenet_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000000 ms"></ZoomStartTime>
+      <ZoomEndTime time="55.081775001 ms"></ZoomEndTime>
+      <Cursor1Time time="55.081775000 ms"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="288"></NameColumnWidth>
+      <ValueColumnWidth column_width="126"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="23" />
+   <wvobject fp_name="/tinymobilenet_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tinymobilenet_tb/reset_button" type="logic">
+      <obj_property name="ElementShortName">reset_button</obj_property>
+      <obj_property name="ObjectShortName">reset_button</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tinymobilenet_tb/start_button" type="logic">
+      <obj_property name="ElementShortName">start_button</obj_property>
+      <obj_property name="ObjectShortName">start_button</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tinymobilenet_tb/inference_done" type="logic">
+      <obj_property name="ElementShortName">inference_done</obj_property>
+      <obj_property name="ObjectShortName">inference_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tinymobilenet_tb/seg" type="array">
+      <obj_property name="ElementShortName">seg[6:0]</obj_property>
+      <obj_property name="ObjectShortName">seg[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tinymobilenet_tb/an" type="array">
+      <obj_property name="ElementShortName">an[7:0]</obj_property>
+      <obj_property name="ObjectShortName">an[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tinymobilenet_tb/dp" type="logic">
+      <obj_property name="ElementShortName">dp</obj_property>
+      <obj_property name="ObjectShortName">dp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tinymobilenet_tb/uart_tx" type="logic">
+      <obj_property name="ElementShortName">uart_tx</obj_property>
+      <obj_property name="ObjectShortName">uart_tx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tinymobilenet_tb/uart_rx" type="logic">
+      <obj_property name="ElementShortName">uart_rx</obj_property>
+      <obj_property name="ObjectShortName">uart_rx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tinymobilenet_tb/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tinymobilenet_tb/correct_count_tb" type="array">
+      <obj_property name="ElementShortName">correct_count_tb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">correct_count_tb[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tinymobilenet_tb/wrong_count_tb" type="array">
+      <obj_property name="ElementShortName">wrong_count_tb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wrong_count_tb[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tinymobilenet_tb/sample_done_idx" type="array">
+      <obj_property name="ElementShortName">sample_done_idx[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sample_done_idx[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tinymobilenet_tb/wait_cycles" type="array">
+      <obj_property name="ElementShortName">wait_cycles[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wait_cycles[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tinymobilenet_tb/done_count_tb" type="array">
+      <obj_property name="ElementShortName">done_count_tb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">done_count_tb[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tinymobilenet_tb/state_dbg" type="array">
+      <obj_property name="ElementShortName">state_dbg[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state_dbg[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tinymobilenet_tb/sample_idx_dbg" type="array">
+      <obj_property name="ElementShortName">sample_idx_dbg[6:0]</obj_property>
+      <obj_property name="ObjectShortName">sample_idx_dbg[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tinymobilenet_tb/pred_dbg" type="logic">
+      <obj_property name="ElementShortName">pred_dbg</obj_property>
+      <obj_property name="ObjectShortName">pred_dbg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tinymobilenet_tb/exp_dbg" type="logic">
+      <obj_property name="ElementShortName">exp_dbg</obj_property>
+      <obj_property name="ObjectShortName">exp_dbg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tinymobilenet_tb/conf_dbg" type="array">
+      <obj_property name="ElementShortName">conf_dbg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">conf_dbg[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tinymobilenet_tb/logit0_dbg" type="array">
+      <obj_property name="ElementShortName">logit0_dbg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">logit0_dbg[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tinymobilenet_tb/logit1_dbg" type="array">
+      <obj_property name="ElementShortName">logit1_dbg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">logit1_dbg[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tinymobilenet_tb/NUM_SAMPLES" type="array">
+      <obj_property name="ElementShortName">NUM_SAMPLES[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NUM_SAMPLES[31:0]</obj_property>
+   </wvobject>
+</wave_config>

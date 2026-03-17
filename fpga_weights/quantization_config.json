@@ -1,0 +1,36 @@
+{
+  "weight_scales": {
+    "conv1.0": 487.08775165572075,
+    "bottleneck_a.dw.0": 463.7451266045186,
+    "bottleneck_a.project.0": 152.91889488208767,
+    "bottleneck_b.expand.0": 308.72485688356045,
+    "bottleneck_b.dw.0": 846.9734888796556,
+    "bottleneck_b.project.0": 188.0536083995554,
+    "bottleneck_c1.expand.0": 381.4026762010783,
+    "bottleneck_c1.dw.0": 821.712010034675,
+    "bottleneck_c1.project.0": 216.7960888707641,
+    "bottleneck_c2.expand.0": 444.32548458691326,
+    "bottleneck_c2.dw.0": 1024.363440955592,
+    "bottleneck_c2.project.0": 220.23731975081535,
+    "conv_pw.0": 353.186690436704,
+    "fc1": 1225.3251592520376,
+    "fc2": 1268.8294467348337
+  },
+  "activation_scales": {
+    "conv1.2": 18.646224252063497,
+    "bottleneck_a.dw.2": 13.103142668618556,
+    "bottleneck_b.expand.2": 11.590157850652158,
+    "bottleneck_b.dw.2": 10.353620894279581,
+    "bottleneck_c1.expand.2": 10.011254896276816,
+    "bottleneck_c1.dw.2": 13.349544155825669,
+    "bottleneck_c2.expand.2": 16.456951796469326,
+    "bottleneck_c2.dw.2": 13.124416754577265,
+    "conv_pw.2": 15.783317388332051,
+    "gap": 86.57524339893696,
+    "fc1": 85.6713288315981,
+    "relu": 85.6713288315981,
+    "fc2": 119.98732903391767
+  },
+  "quantization_bits": 8,
+  "note": "Scales are used to convert FP32 to INT8: int8_value = round(fp32_value * scale)"
+}
