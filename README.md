@@ -512,21 +512,3 @@ Replace `COM3` with the actual COM port assigned to your board (check Device Man
 | Accuracy | 95.54% | **95.54%** | — |
 
 ---
-
-## License
-
-This repository builds upon the [PIE dataset benchmark code](https://github.com/aras62/PIE) released under its original license. The FPGA RTL, training code, and model architecture are original work. See `LICENSE` for details.
-
----
-
-## Citation
-
-If you use this work, please cite the PIE dataset:
-
-```bibtex
-@inproceedings{rasouli2019pie,
-  title     = {PIE: A Large-Scale Dataset and Models for Pedestrian Intention Estimation and Trajectory Prediction},
-  author    = {Rasouli, Amir and Kotseruba, Iuliia and Kunic, Toni and Tsotsos, John K},
-  booktitle = {ICCV},
-  year      = {2019}
-}
